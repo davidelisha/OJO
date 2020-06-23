@@ -144,7 +144,7 @@
 /* Page 3 */
 
 #page3 {
-  /* margin: 5em 10vw; */
+  padding: 5em 10vw;
   height: 100vh;
 }
 
@@ -152,6 +152,33 @@
   display: flex;
 }
 
+.subhead {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.p3 {
+  color: grey;
+}
+
+.p3bold {
+  font-weight: 700;
+}
+
 .community {
-  /* margin: 3em; */
+  margin: 4em;
+}
+
+.business {
+  margin-top: 3em;
+  margin: 4em;
+}
+
+.academy {
+  margin: 4em;
+}
+
+.event {
+  margin-top: 3em;
+  margin: 4em;
 }
