@@ -182,3 +182,38 @@
   margin-top: 3em;
   margin: 4em;
 }
+
+/* Page 4 */
+
+#page4 {
+  padding: 5em 10vw;
+  height: 100vh;
+}
+
+.pop {
+  display: flex;
+}
+
+.stay {
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.exp {
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
+.p4 {
+  color: grey;
+}
+
+.chalk {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.contain {
+  margin: 2em;
+  margin-top: 5em;
+}
