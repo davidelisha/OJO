@@ -141,6 +141,20 @@
   line-height: 1.8em;
 }
 
+.page2-flex {
+  display: flex;
+}
+
+.page2-flex .flex-right {
+  display: flex;
+  justify-content: center;
+  padding-top: 10em;
+}
+
+.flex-right img {
+  height: 100%;
+}
+
 /* Page 3 */
 
 #page3 {
