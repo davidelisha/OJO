@@ -227,6 +227,61 @@
   margin-top: 5em;
 }
 
+.number {
+  position: relative;
+  font-size: 3em;
+  font-weight: 700;
+  width: fit-content;
+  padding: 0.4em;
+  margin-bottom: 0.7em;
+  font-weight: 900;
+}
+
+.number .bg1 {
+  position: absolute;
+  background-color: orchid;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: rotate(5deg);
+  z-index: -1;
+}
+.number .bg2 {
+  position: absolute;
+  background-color: orangered;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: rotate(25deg);
+  z-index: -1;
+}
+.number .bg3 {
+  position: absolute;
+  background-color: rgb(97, 224, 150);
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.number .bg4 {
+  position: absolute;
+  background-color: yellow;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: rotate(65deg);
+  z-index: -1;
+}
+
 .pop {
   display: flex;
 }
