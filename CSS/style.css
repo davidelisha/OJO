@@ -186,12 +186,8 @@
 /* Page 4 */
 
 #page4 {
-  padding: 5em 10vw;
-  height: 100vh;
-}
-
-.pop {
-  display: flex;
+  margin: 5em 10vw;
+  height: 70vh;
 }
 
 .stay {
@@ -216,4 +212,83 @@
 .contain {
   margin: 2em;
   margin-top: 5em;
+}
+
+.pop {
+  display: flex;
+}
+
+/* Page 5 */
+
+#page5 {
+  height: 100vh;
+  background-color: rgb(236, 223, 243);
+}
+
+.h5 {
+  font-size: 5em;
+  font-weight: 700;
+  padding: 0.5em 0;
+}
+
+.details {
+  text-align: center;
+  margin: 0 17vw;
+  height: 80vh;
+}
+
+.p5 {
+  font-size: 1.1em;
+  color: grey;
+}
+
+.drop {
+  font-weight: 700;
+  padding: 1.2em 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons2 {
+  display: flex;
+  background-color: grey;
+  /* padding: 10px 20px; */
+}
+
+.uni {
+  background-color: #fff;
+  /* margin: 2px 6px; */
+  border: grey;
+}
+
+.form-wrap input {
+  width: 30vw;
+  height: 3em;
+  /* border-radius: 15px; */
+  border: none;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: grey;
+  padding-left: 1.5em;
+}
+
+.botton button {
+  width: 30vw;
+  background-color: rgb(103, 236, 136);
+  border: none;
+  height: 3em;
+  border-radius: 5px;
+}
+
+.btn5 {
+  color: #fff;
+}
+
+.form-group {
+  margin: 1em 0;
 }
