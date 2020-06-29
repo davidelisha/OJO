@@ -46,6 +46,10 @@
   width: 50%;
 }
 
+.flex-left img {
+  width: 100%;
+}
+
 .find {
   font-size: 2.5em;
   font-weight: 600;
@@ -169,6 +173,7 @@
 .subhead {
   font-size: 1.5em;
   font-weight: 700;
+  padding-bottom: 0.5em;
 }
 
 .p3 {
@@ -177,24 +182,18 @@
 
 .p3bold {
   font-weight: 700;
+  padding-top: 0.8em;
 }
 
-.community {
-  margin: 4em;
+.container3 {
+  margin: 4.5em;
 }
 
-.business {
-  margin-top: 3em;
-  margin: 4em;
-}
-
-.academy {
-  margin: 4em;
-}
-
-.event {
-  margin-top: 3em;
-  margin: 4em;
+.font i {
+  font-size: 4em;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em 0;
 }
 
 /* Page 4 */
