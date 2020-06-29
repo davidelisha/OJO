@@ -221,19 +221,20 @@
 /* Page 5 */
 
 #page5 {
-  height: 100vh;
+  height: 90vh;
   background-color: rgb(236, 223, 243);
 }
 
 .h5 {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 700;
   padding: 0.5em 0;
+  padding-top: 1.3em;
 }
 
 .details {
   text-align: center;
-  margin: 0 17vw;
+  margin: 0 27vw;
   height: 80vh;
 }
 
@@ -265,8 +266,8 @@
 }
 
 .form-wrap input {
-  width: 30vw;
-  height: 3em;
+  width: 22vw;
+  height: 4em;
   /* border-radius: 15px; */
   border: none;
   border-radius: 5px;
@@ -278,10 +279,10 @@
 }
 
 .botton button {
-  width: 30vw;
+  width: 22vw;
   background-color: rgb(103, 236, 136);
   border: none;
-  height: 3em;
+  height: 4em;
   border-radius: 5px;
 }
 
@@ -291,4 +292,52 @@
 
 .form-group {
   margin: 1em 0;
+}
+
+/* NavBar */
+
+#navbar {
+  height: 10vh;
+  background-color: blueviolet;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 10em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  margin: 2em;
+}
+
+.opo {
+  color: #fff;
+  font-size: 1.6em;
+  margin: 1.1em;
+}
+
+.pointer {
+  font-size: 2.5em;
+}
+
+.fonts5 {
+  display: flex;
+  margin: 0.7em;
+  font-size: 2em;
+}
+
+i {
+  padding-left: 1.1em;
 }
