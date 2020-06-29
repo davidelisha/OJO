@@ -239,13 +239,14 @@
 }
 
 .p5 {
-  font-size: 1.1em;
+  font-size: 1em;
   color: grey;
+  margin-bottom: 1em;
 }
 
 .drop {
   font-weight: 700;
-  padding: 1.2em 0;
+  /* padding: 1.2em 0; */
 }
 
 .button-container {
@@ -256,18 +257,36 @@
 .buttons2 {
   display: flex;
   background-color: grey;
-  /* padding: 10px 20px; */
+  width: 22vw;
+  /* margin: 10px 20px; */
+  justify-content: space-around;
+  border-radius: 5px;
+  height: 2.7em;
+}
+
+.work {
+  background-color: gray;
+  margin: 0.1em;
+  width: inherit;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .uni {
   background-color: #fff;
-  /* margin: 2px 6px; */
-  border: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.1em;
+  width: inherit;
+  border-radius: 5px;
 }
 
 .form-wrap input {
   width: 22vw;
-  height: 4em;
+  height: 3.3em;
   /* border-radius: 15px; */
   border: none;
   border-radius: 5px;
@@ -282,7 +301,7 @@
   width: 22vw;
   background-color: rgb(103, 236, 136);
   border: none;
-  height: 4em;
+  height: 3.3em;
   border-radius: 5px;
 }
 
@@ -329,7 +348,8 @@ li {
 }
 
 .pointer {
-  font-size: 2.5em;
+  font-size: 2em;
+  margin: 0.4em;
 }
 
 .fonts5 {
